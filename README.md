@@ -63,4 +63,4 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 - Mr. Gajendra Kumar Ahirwar — Assistant Professor
 
 **Bachelor of Technology — Computer Science Engineering (Data Science)**
-Indian Institute of Technology Patna
+School of Information Technology, R.G.P.V, Bhopal
