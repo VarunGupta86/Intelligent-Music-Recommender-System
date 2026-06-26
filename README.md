@@ -5,7 +5,7 @@
 
 ## About This Project
 ### Architecture
-A content-based music recommendation engine using Spotify audio features and cosine similarity. The system is trained on a global multi-million-song dataset and computes similarity on-demand — no NxN matrix, making it scalable to 3M+ songs across any genre or language.
+A content-based music recommendation engine using Spotify audio features and cosine similarity. The system is trained on a global multi-million-song dataset and computes similarity on-demand — no NxN matrix, making it scalable to 1M+ songs across any genre or language.
 
 ---
 
@@ -38,7 +38,7 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 
 📥 **Download the dataset:** [master_songs.csv (Google Drive)](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) — place it inside the `data/` folder before running the app.
 
-> **Note:** `prepare_data.py` is only needed if you have your own raw Spotify CSV sources to merge (expects them in `data/raw/`). If you just want to run the app, download the ready-made `master_songs.csv` above instead.
+> **Note:** `prepare_data.py` is only needed if you have your own raw Spotify CSV source files to merge — place them inside `data/raw/` (any `.csv` files, subfolders are fine too). If you just want to run the app, download the ready-made `master_songs.csv` above instead.
 
 ---
 
