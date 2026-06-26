@@ -36,6 +36,8 @@ A content-based music recommendation engine using Spotify audio features and cos
 ## Dataset
 The recommender is trained on a combined global dataset drawn from multiple Spotify data sources, covering millions of tracks spanning Pop, Rock, Hip-Hop, Jazz, Electronic, Classical, Folk, Anime, Country, R&B, Indie, and many more genres. Data preparation merges, deduplicates, and standardises all sources into a single optimised CSV.
 
+📥 **Download the dataset:** [master_songs.csv (Google Drive)](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) — place it inside the `data/` folder before running the app.
+
 ---
 
 ## Tech Stack
@@ -50,7 +52,7 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 3. Create a virtual environment (optional but recommended): `python -m venv venv`
 4. Activate the virtual environment: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
 5. Install dependencies: `pip install -r requirements.txt`
-6. Ensure `data/master_songs.csv` exists; if not, run `python prepare_data.py` to generate it
+6. Ensure `data/master_songs.csv` exists — either [download it directly](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/`, or run `python prepare_data.py` to generate it from source
 7. Run the app: `python -m streamlit run app.py`
 8. Open the URL shown in the terminal (usually `http://localhost:8501`) in your browser
 
@@ -60,7 +62,7 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 3. Create a virtual environment (optional but recommended): `python -m venv venv`
 4. Activate the virtual environment: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
 5. Install dependencies: `pip install -r requirements.txt`
-6. Ensure `data/master_songs.csv` exists; if not, run `python prepare_data.py` to generate it
+6. Ensure `data/master_songs.csv` exists — either [download it directly](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/`, or run `python prepare_data.py` to generate it from source
 7. Run the app: `python -m streamlit run app.py`
 8. Open the URL shown in the terminal (usually `http://localhost:8501`) in your browser
 
