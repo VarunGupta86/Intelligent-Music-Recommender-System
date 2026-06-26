@@ -32,7 +32,6 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 `Python` · `Streamlit` · `scikit-learn` · `pandas` · `NumPy` · `Plotly` · `SciPy`
 ---
 ## How to Run
-
 ### Option A: If You Cloned the Repository
 1. Clone the repository: `git clone <repo-url>`
 2. Navigate into the project folder: `cd music-recommender` (or whatever the folder is named)
@@ -42,7 +41,6 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 6. Ensure `data/master_songs.csv` exists; if not, run `python prepare_data.py` to generate it
 7. Run the app: `python -m streamlit run app.py`
 8. Open the URL shown in the terminal (usually `http://localhost:8501`) in your browser
-
 ### Option B: If You Downloaded/Have the Code Folder
 1. Extract or place the project folder anywhere on your system
 2. Open a terminal and navigate into the project folder: `cd path/to/music-recommender`
