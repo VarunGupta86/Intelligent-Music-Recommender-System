@@ -38,6 +38,8 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 
 📥 **Download the dataset:** [master_songs.csv (Google Drive)](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) — place it inside the `data/` folder before running the app.
 
+> **Note:** `prepare_data.py` is only needed if you have your own raw Spotify CSV sources to merge (expects them in `data/raw/`). If you just want to run the app, download the ready-made `master_songs.csv` above instead.
+
 ---
 
 ## Tech Stack
@@ -52,7 +54,7 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 3. Create a virtual environment (optional but recommended): `python -m venv venv`
 4. Activate the virtual environment: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
 5. Install dependencies: `pip install -r requirements.txt`
-6. Ensure `data/master_songs.csv` exists — either [download it directly](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/`, or run `python prepare_data.py` to generate it from source
+6. Ensure `data/master_songs.csv` exists — [download the pre-built dataset](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/` (recommended), **or**, only if you have your own raw Spotify CSVs in `data/raw/`, run `python prepare_data.py` to generate it yourself
 7. Run the app: `python -m streamlit run app.py`
 8. Open the URL shown in the terminal (usually `http://localhost:8501`) in your browser
 
@@ -62,7 +64,7 @@ The recommender is trained on a combined global dataset drawn from multiple Spot
 3. Create a virtual environment (optional but recommended): `python -m venv venv`
 4. Activate the virtual environment: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
 5. Install dependencies: `pip install -r requirements.txt`
-6. Ensure `data/master_songs.csv` exists — either [download it directly](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/`, or run `python prepare_data.py` to generate it from source
+6. Ensure `data/master_songs.csv` exists — [download the pre-built dataset](https://drive.google.com/file/d/1dEJALD3GjBnUveAuGxofB5lbqteD2O5R/view?usp=sharing) and place it in `data/` (recommended), **or**, only if you have your own raw Spotify CSVs in `data/raw/`, run `python prepare_data.py` to generate it yourself
 7. Run the app: `python -m streamlit run app.py`
 8. Open the URL shown in the terminal (usually `http://localhost:8501`) in your browser
 
